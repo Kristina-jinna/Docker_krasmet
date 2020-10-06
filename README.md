@@ -12,7 +12,6 @@
 Запускать контейнер командой 
 sudo docker run --rm --name test1 -p 5432:5432 (имя образа)
 
-Описание 
 
 В данной папке 2а файла (Dokerfile scriptdb.py). 
 
