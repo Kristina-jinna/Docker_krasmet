@@ -15,9 +15,5 @@ RUN service postgresql restart
 
 RUN ufw allow 5432
 
-USER root
-
-RUN chmod a+x ./scriptdb.py
-
 CMD /etc/init.d/postgresql start ; python3 scriptdb.py
 
